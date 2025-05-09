@@ -36,7 +36,7 @@
 .intro {
     color: white;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 15px;
     margin-top: 10px;
     font-weight: 800;
 }
@@ -108,9 +108,9 @@
     flex-direction: column;
     padding: 30px;
     gap: 10px;
-    width: 63%;
+    width: 57%;
     height: 100%;
-    box-shadow: 0 4px 8px 0 hsl(216, 5%, 80%);
+    box-shadow: 4px 4px 8px 4px hsl(216, 5%, 80%);
     justify-self: flex-start;
     border-radius: 12px;
 }
@@ -132,7 +132,7 @@
     color: white;
     padding: 30px;
     height: 100%;
-    width: 60%;
+    width: 65%;
     justify-self: flex-end;
     gap: 10px;
 }
@@ -154,7 +154,7 @@
     width: 100%;
     border-radius: 12px;
     gap: 10px;
-    box-shadow: 0 4px 8px 0 hsl(216, 5%, 80%);
+    box-shadow: 4px 4px 8px 4px hsl(216, 5%, 80%);
 }
 
 .kira img {
