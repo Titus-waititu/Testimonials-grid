@@ -48,10 +48,19 @@
     gap: 0px;
 }
 
-
+.daniel .header{
+    color: white;
+}
+.jonathan .header{
+    color: white;
+}
+.patrick .header{
+    color: white;
+}
 .daniel img{
     /* width: 10%; */
     height: auto;
+    margin-right: 10px;
     border-radius: 50%;
 }
 .jonathan{
@@ -69,12 +78,14 @@
 .jonathan img{
     /* width: 100%; */
     /* height: auto; */
+    margin-right: 10px;
     border-radius: 50%;
 }
 .header{
     display: flex;
     font-size: 13px;
     gap: 10px;
+    color: black;
 
 }
 .jeanette{
@@ -84,13 +95,15 @@
     flex-direction: column;
     padding: 20px;
     gap: 10px;
-    width: 50%;
+    width: 60%;
+    height: 100%;
     box-shadow: 0 4px 8px 0 hsl(216, 5%, 80%);
     justify-self: flex-start;
 }
 .jeanette img{
     /* width: 20%; */
     height: auto;
+    margin-right: 10px;
     border-radius: 50%;
 }
 .patrick{
@@ -108,6 +121,7 @@
 }
 .patrick img{
     /* width: 10%; */
+    margin-right: 10px;
     height: auto;
     border-radius: 50%;
 }
@@ -125,6 +139,7 @@
 .kira img{
     /* width: 30%; */
     height: auto;
+    margin-right: 10px;
     border-radius: 50%;
 }
 .kira .quote{
@@ -138,4 +153,23 @@
 }
 .jeanette .intro{
     color: hsl(0, 0%, 7%);
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        
+    }
+    .jeanette{
+        width: 100%;
+        height: 100%;
+     
+    }
+    .patrick, .daniel, .jonathan, .kira ,.jeanette{
+        width: 100%;
+        height: 100%;
+        margin-top: 1.5rem;
+    }
+    
+    
 }
