@@ -51,6 +51,9 @@
     border-radius: 12px;
     height: 100%;
     width: 100%;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
     gap: 0px;
 }
 
